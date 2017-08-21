@@ -492,6 +492,7 @@ class Codebird
       'ads/accounts/:account_id/targeting_criteria/:id',
       'ads/accounts/:account_id/videos/:id',
       'ads/accounts/:account_id/web_event_tags/:web_event_tag_id',
+      'ads/stats/jobs/accounts/:account_id/:job_id',
       'ads/sandbox/accounts/:account_id/campaigns/:campaign_id',
       'ads/sandbox/accounts/:account_id/cards/app_download/:card_id',
       'ads/sandbox/accounts/:account_id/cards/image_app_download/:card_id',
@@ -508,7 +509,8 @@ class Codebird
       'ads/sandbox/accounts/:account_id/tailored_audiences/:id',
       'ads/sandbox/accounts/:account_id/targeting_criteria/:id',
       'ads/sandbox/accounts/:account_id/videos/:id',
-      'ads/sandbox/accounts/:account_id/web_event_tags/:web_event_tag_id'
+      'ads/sandbox/accounts/:account_id/web_event_tags/:web_event_tag_id',
+      'ads/sandbox/stats/jobs/accounts/:account_id/:job_id'
     ]
   ];
 
