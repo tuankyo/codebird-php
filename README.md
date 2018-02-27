@@ -1,4 +1,9 @@
 codebird-php
+
+For Version V2
+https://twittercommunity.com/t/ads-api-version-2/90360
+https://developer.twitter.com/en/docs/ads/general/overview/versions
+
 ============
 *Easy access to the Twitter REST API, Collections API, Streaming API, TON (Object Nest) API and Twitter Ads API — all from one PHP library.*
 
