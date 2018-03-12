@@ -68,8 +68,8 @@ class Codebird
    */
   protected static $_endpoints = [
     'ads'          => [
-      'production' => 'https://ads-api.twitter.com/2/',
-      'sandbox'    => 'https://ads-api-sandbox.twitter.com/2/'
+      'production' => 'https://ads-api.twitter.com/3/',
+      'sandbox'    => 'https://ads-api-sandbox.twitter.com/3/'
     ],
     'media'        => 'https://upload.twitter.com/1.1/',
     'publish'      => 'https://publish.twitter.com/',
@@ -453,7 +453,6 @@ class Codebird
       'ads/accounts/:account_id/preroll_call_to_actions/:preroll_call_to_action_id',
       'ads/accounts/:account_id/promoted_tweets/:id',
       'ads/accounts/:account_id/tailored_audiences/global_opt_out',
-      'ads/accounts/:account_id/targeting_criteria',
       'ads/accounts/:account_id/videos/:id',
       'ads/accounts/:account_id/web_event_tags/:web_event_tag_id',
       'ads/sandbox/accounts/:account_id/campaigns/:campaign_id',
